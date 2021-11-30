@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("./bgSydney.jpg");
+    background-size:cover;
+    background-position: center center ;
+    user-select: none;
+    
+}
+
+#divContainer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+button {
+    height: 2rem;
+    width: 7rem;
+    font-weight: bold;
+    margin: 0rem 2rem 0rem 2rem;
+}
+div {
+    border-style: solid;
+    border-width: 2px;
+}
+#divButtons {
+    position: relative;
+    margin-top: 8rem;
+    border-style: solid;
+    border-width: 2px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+h1 {
+    font-size: 4rem;
+    margin-top: -10rem;
+    text-shadow: 2px 2px 4px white;
+}
+
+p {
+    font-size: 4rem;
+    line-height: 1;
+    margin: 0rem 0rem 2rem 2rem;
+    text-shadow: 2px 2px 5px white;
+    
+}
+
+span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0rem 0rem 2rem 2rem;
+    text-align: center;
+    text-shadow: 1px 1px 5px white;
+}
+
