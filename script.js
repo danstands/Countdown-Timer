@@ -29,6 +29,7 @@ function setNewYears() {
     newYears = "1 Jan 2022";
     document.getElementById('h1title').innerHTML = "New Years";
     console.log("button new");
+    document.body.style.backgroundImage = 'url("./bgSydney.jpg")'
     timer();
 }
 
@@ -36,6 +37,7 @@ function setChristmas(){
     newYears = "25 Dec 2021";
     document.getElementById('h1title').innerHTML = "Christmas";
     console.log("button xmas");
+    document.body.style.backgroundImage = 'url("./bgChristmas.jpg")'
     timer();
 }
 
@@ -43,5 +45,6 @@ function setEOFY(){
     newYears = "01 Jul 2022";
     document.getElementById('h1title').innerHTML = "End of Financial Year";
     console.log("button eofy");
+    document.body.style.backgroundImage = 'url("./bgEOFY.jpg")'
     timer();
 }
