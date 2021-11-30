@@ -1,4 +1,4 @@
-const newYears ="1 Jan 2022";
+var newYears ="1 Jan 2022";
 
 
 function timer(){
@@ -24,3 +24,24 @@ function formatTime(time) {
 }
 
 setInterval(timer, 1000);
+
+function setNewYears() {
+    newYears = "1 Jan 2022";
+    document.getElementById('h1title').innerHTML = "New Years";
+    console.log("button new");
+    timer();
+}
+
+function setChristmas(){
+    newYears = "25 Dec 2021";
+    document.getElementById('h1title').innerHTML = "Christmas";
+    console.log("button xmas");
+    timer();
+}
+
+function setEOFY(){
+    newYears = "01 Jul 2022";
+    document.getElementById('h1title').innerHTML = "End of Financial Year";
+    console.log("button eofy");
+    timer();
+}

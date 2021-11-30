@@ -29,13 +29,11 @@ button {
 }
 div {
     border-style: solid;
-    border-width: 2px;
+    border-width: 0px;
 }
 #divButtons {
     position: relative;
     margin-top: 8rem;
-    border-style: solid;
-    border-width: 2px;
     display: flex;
     text-align: center;
     justify-content: center;
