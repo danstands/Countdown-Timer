@@ -26,7 +26,7 @@ function formatTime(time) {
 setInterval(timer, 1000);
 
 function setNewYears() {
-    newYears = "1 Jan 2022";
+    newYears = "1 Jan 2023";
     document.getElementById('h1title').innerHTML = "New Years";
     console.log("button new");
     document.body.style.backgroundImage = 'url("./bgSydney.jpg")'
@@ -34,7 +34,7 @@ function setNewYears() {
 }
 
 function setChristmas(){
-    newYears = "25 Dec 2021";
+    newYears = "25 Dec 2022";
     document.getElementById('h1title').innerHTML = "Christmas";
     console.log("button xmas");
     document.body.style.backgroundImage = 'url("./bgChristmas.jpg")'
